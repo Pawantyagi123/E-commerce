@@ -1,0 +1,143 @@
+body{
+  padding: 0;
+margin: 0;
+box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+.cart-wrapper{
+    display: flex;
+    padding: 1rem;
+    }
+    .cart-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 6px 6px rgba(0, 0, 0, 0.463);
+    }
+    .cart-img img{
+        width: 150px;
+      
+       max-height: 100px;
+       padding: 1rem;
+      
+    
+    }
+    .cart-details{
+    padding: 0 1rem;
+    max-width:500px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    }
+    .cart-details h3{
+        white-space:nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .cart-product-action{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .cart-product-action input{
+        padding: 2px 6px;
+        max-width: 40px;
+        text-align: center;  
+        border-radius: 3px;
+        border: 1px solid gray;
+    }
+    .empty-cart i{
+        display: flex;
+        justify-content: center;
+        font-size: 100px;
+        opacity: 0.2;
+    }
+    .empty-cart h2{
+        opacity: 0.2;
+        text-align: center;
+        /* padding:20px 0; */
+    }
+
+    /* style.css */
+
+.sidebar {
+    width: 250px; /* Adjust width as needed */
+    height: 100vh; /* Make sidebar full height of viewport */
+    background-color: #f0f0f0; /* Light background color */
+     position: sticky;
+    top: 80px;
+    left: 0;
+    padding: 20px; /* Padding inside sidebar */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+  }
+  
+  .sidebar h2 {
+    font-size: 1.5rem; /* Heading font size */
+    margin-bottom: 10px; /* Bottom margin for headings */
+  }
+  
+  .sidebar ul {
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px; /* Spacing between list items */
+  }
+  
+  .sidebar button {
+    display: block; /* Make buttons block level for full width */
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside buttons */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove button border */
+    text-align: left; /* Align text to the left */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease;
+    border-radius: 5px; /* Smooth transition for background color */
+  }
+  
+  .sidebar button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+  }
+  
+  .icon{
+    display: none;
+  }
+
+  @media(max-width:1240px){
+    .icon{
+        display: block;
+    }
+    .sidebar,ul{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        position: relative;
+        top: 0;
+    }
+   
+  }
+
+  .cart-button{
+   color: white;
+    font-size: 20px;
+    width: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+  }
+
+  .cart-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
